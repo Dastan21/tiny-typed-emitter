@@ -30,6 +30,9 @@
   "scripts": {
     "release": "npm publish"
   },
+  "dependencies": {
+    "events": "^3.3.0"
+  },
   "devDependencies": {
     "@types/node": "^13.13.4",
     "typescript": "^3.8.3"
