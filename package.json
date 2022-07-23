@@ -1,9 +1,13 @@
 {
-  "name": "tiny-typed-emitter",
+  "name": "@dastan21/tiny-typed-emitter",
   "version": "2.1.0",
   "description": "Fully type-checked EventEmitter",
   "main": "lib/index",
-  "repository": "https://github.com/binier/tiny-typed-emitter.git",
+  "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dastan21/tiny-typed-emitter.git"
+  },
   "author": "Zurab Benashvili <zura.benashvili@gmail.com>",
   "license": "MIT",
   "keywords": [
@@ -36,5 +40,12 @@
   "devDependencies": {
     "@types/node": "^13.13.4",
     "typescript": "^3.8.3"
+  },
+  "bugs": {
+    "url": "https://github.com/dastan21/tiny-typed-emitter/issues"
+  },
+  "homepage": "https://github.com/dastan21/tiny-typed-emitter#readme",
+  "directories": {
+    "lib": "lib"
   }
 }
